@@ -19395,9 +19395,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/dimapascal/www/laravel-learn/vue-test/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /Users/dimapascal/www/laravel-learn/vue-test/resources/scss/main.scss */"./resources/scss/main.scss");
-module.exports = __webpack_require__(/*! /Users/dimapascal/www/laravel-learn/vue-test/resources/css/bootstrap.min.css */"./resources/css/bootstrap.min.css");
+__webpack_require__(/*! /Users/dimapascal/www/laravel-learn/e-shop/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /Users/dimapascal/www/laravel-learn/e-shop/resources/scss/main.scss */"./resources/scss/main.scss");
+module.exports = __webpack_require__(/*! /Users/dimapascal/www/laravel-learn/e-shop/resources/css/bootstrap.min.css */"./resources/css/bootstrap.min.css");
 
 
 /***/ })

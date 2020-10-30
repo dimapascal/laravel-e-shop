@@ -1,0 +1,15 @@
+main {
+  min-height: 100vh;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart__count {
+  top: -6px;
+  right: -2px;
+  position: absolute;
+  transform: translate(50%, -50%);
+}
+
