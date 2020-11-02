@@ -3,7 +3,7 @@
     fieldset{
         width: $desktopFormWidth;
     } 
-    .message{
+    &__message{
         width: $desktopFormWidth;
         p{
             font-size: 20px;
@@ -12,5 +12,8 @@
     }
     .required{
             color: red;
+    }
+    &--signing{
+        min-height: 70vh;
     }
 }

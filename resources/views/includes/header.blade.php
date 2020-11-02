@@ -36,7 +36,7 @@
                                 </a>
                             </li>
                             <li class="nav-item pt-1">
-                                <a href="{{ route('home') }}" class="d-flex flex-column align-items-center">
+                                <a href="{{ route('logout') }}" class="d-flex flex-column align-items-center">
                                     <img src="{{ asset('assets/logout.svg') }}" width="30" height="30" alt="Logout">
                                     <span class="text-small pt-1">Log out</span>
                                 </a>
@@ -58,7 +58,7 @@
                                 </a>
                             </li>
                             <li class="nav-item pt-1">
-                                <a href="{{ route('home') }}" class="d-flex flex-column align-items-center">
+                                <a href="{{ route('login') }}" class="d-flex flex-column align-items-center">
                                     <img src="{{ asset('assets/log_in.svg') }}" width="30" height="30" alt="Log in">
                                     <span class="text-small pt-1">Log in</span>
                                 </a>

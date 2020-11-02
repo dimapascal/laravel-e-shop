@@ -6,17 +6,21 @@
   width: 600px;
 }
 
-.form .message {
+.form__message {
   width: 600px;
 }
 
-.form .message p {
+.form__message p {
   font-size: 20px;
   margin-bottom: 2px;
 }
 
 .form .required {
   color: red;
+}
+
+.form--signing {
+  min-height: 70vh;
 }
 
 main {
