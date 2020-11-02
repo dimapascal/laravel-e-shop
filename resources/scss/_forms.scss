@@ -1,0 +1,16 @@
+.form{
+    $desktopFormWidth: 600px;
+    fieldset{
+        width: $desktopFormWidth;
+    } 
+    .message{
+        width: $desktopFormWidth;
+        p{
+            font-size: 20px;
+            margin-bottom: 2px;
+        }
+    }
+    .required{
+            color: red;
+    }
+}

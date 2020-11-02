@@ -1,3 +1,24 @@
+.text-small {
+  font-size: 0.25em;
+}
+
+.form fieldset {
+  width: 600px;
+}
+
+.form .message {
+  width: 600px;
+}
+
+.form .message p {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.form .required {
+  color: red;
+}
+
 main {
   min-height: 100vh;
 }
