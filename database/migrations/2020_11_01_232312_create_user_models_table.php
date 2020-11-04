@@ -24,6 +24,12 @@ class CreateUserModelsTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken()->nullable();
             $table->timestamps();
+            $table->bigInteger('role_id');
+            $table->foreign('role_id')
+                ->references('id')
+                ->on('roles')
+                ->default(3)
+                ->onDelete("cascade");
         });
     }
 
